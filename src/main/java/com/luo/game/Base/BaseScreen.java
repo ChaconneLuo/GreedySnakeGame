@@ -89,9 +89,6 @@ public abstract class BaseScreen extends Canvas implements BaseEvent{
         }
     }
 
-    /**
-     * 更新对象数组
-     */
     public void update() {
         for (int i = 0; i < Objects.size(); i++) {
             BaseObject wObject = Objects.get(i);
